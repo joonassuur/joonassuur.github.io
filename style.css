@@ -103,14 +103,14 @@ p {
 
 
 .portfolioItem {
-    background: #fff;
+    background: #88c3aa;
     position: relative;
     display: flex;
     align-items: center;
     font-size: 0;
     width: 100%;
     max-width: 600px;
-    color: #000;
+    color: #fff;
     text-align: left;
     margin: 10px auto;
     text-decoration: none;
