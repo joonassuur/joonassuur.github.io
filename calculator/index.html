@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="main">
+        <div class="calc-cont">
+            
+            <table data-tilt data-tilt-glare data-tilt-max-glare="0.6" data-tilt-scale="1.1" class="buttons-cont">
+                <tr class="screen row">
+                    <td colspan="4">0</td>
+                </tr>
+                <tr class="row">
+                    <td class="clearKey" colspan="3">
+                        clear
+                    </td>
+                    <td class="clearKey">
+                        &lt;
+                    </td>
+                </tr>
+                <tr class="row">
+                    <td class="key n7">7</td>
+                    <td class="key n8">8</td>
+                    <td class="key n9">9</td>
+                    <td class="key div">/</td>
+                </tr>
+                <tr class="row">
+                    <td class="key n4">4</td>
+                    <td class="key n5">5</td>
+                    <td class="key n6">6</td>
+                    <td class="key mul">*</td>
+                </tr>
+                <tr class="row">
+                    <td class="key n1">1</td>
+                    <td class="key n2">2</td>
+                    <td class="key n3">3</td>
+                    <td class="key min">-</td>
+                </tr>
+                <tr class="row">
+                    <td class="key n0">0</td>
+                    <td class="key point">.</td>
+                    <td class="key plus">+</td>
+                    <td class="key equals">=</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <canvas></canvas>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="tilt.js"></script>
+    <script src="script.js"></script>
+    <script src="canvas.js"></script>
+</body>
+</html>

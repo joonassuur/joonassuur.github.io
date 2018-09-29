@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+<!--         <div class="header">
+            <div class="btn-cont">
+                <a href="#about" class="btn">Button1</a>
+                <a href="#portfolio" class="btn">Button2</a>
+                <a href="#contact" class="btn">Button3</a>
+            </div>
+        </div> -->
+        <div id="about">
+            <div class="title-cont">
+                <h1>About me</h1>
+            </div><div class="content-cont">
+                <h2>Hi, my name is Joonas and I am a front-end developer.</h2>
+                <p>I have been designing and developing investor relation tools for variety of companies for over a year.</p>
+                <p>In addition, I have been working on my own projects as part of my passion to be the best developer I can be. I would consider programming my interest and a hobby.</p>
+                <p>I am mostly skilled with HTML/XML/CSS (incl. responsive design, Bootstrap, Materialize, etc.) and JavaScript, although I also have some experience with C# and ASP.NET.</p>
+                <p>I have included here a few of the projects I've done for the company I work for, in addition to my own projects.</p>
+            </div>
+        </div>
+        <div id="portfolio">
+            <div class="title-cont">
+                <h1>Portfolio</h1>
+            </div>
+            <div class="content-cont">
+                <a href="https://www.sony.net/SonyInfo/IR/" target="_blank" class="portfolioItem">
+                    <div class="image-cont">
+                        <img src="images/item1.png">
+                    </div><div class="text-cont">
+                        <p>Share ticker I built for Sony.</p> 
+                        <p>Languages used: HTML,XML,CSS</p> 
+                    </div>
+                </a>
+                <a href="https://www.fortum.com/about-us/investors/key-facts" target="_blank" class="portfolioItem">
+                    <div class="text-cont">
+                        <p>Fact sheet that I build and designed for Fortum.</p> 
+                        <p>Languages used: HTML,ASP.NET,C#,CSS</p> 
+                    </div><div class="image-cont">
+                        <img src="images/item2.png">
+                    </div>
+                </a>
+                <a href="https://www.coroenergyplc.com/investors/share-price/" target="_blank" class="portfolioItem">
+                    <div class="image-cont">
+                        <img src="images/item3.png">
+                    </div><div class="text-cont">
+                        <p>Various share price tools that I designed for Coro Energy.</p>
+                        <p>Language used: CSS</p> 
+                    </div>
+                </a>
+                <a href="calculator/index.html" target="_blank" class="portfolioItem">
+                    <div class="text-cont">
+                        <p>A calculator I designed and built for fun.</p>
+                        <p>Languages used: HTML/CSS/JS</p>
+                    </div><div class="image-cont">
+                        <img src="images/item4.png">
+                    </div>
+                </a>
+            </div>
+
+        </div>
+        <div id="contact">
+            <div class="title-cont">
+                <h1>Contact me</h1>
+            </div>
+            <div class="form-heading-cont">
+                <form action="https://formspree.io/joonas.suurvali@gmail.com" method="POST">
+                    <input type="name" name="_subject" placeholder="Your name">
+                    <input type="email" name="_replyto" placeholder="Your email" required>
+                    <textarea name="message" placeholder="Your message" required></textarea>
+                    <button type="submit" value="Submit" class="submit-btn">Submit</button>
+                </form>
+            </div>
+        </div> 
+        <div class="footer">
+            <p>Copyright ©  2018</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
