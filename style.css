@@ -239,6 +239,9 @@ input:hover {
     body {
         font-size: 12px;
     }
+    .wrapper {
+        padding: 10px;
+    }
     .title-cont,
     .content-cont,
     #about, #contact {
