@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600');
+@import url('all.min.css');
+
+
+
 /*general*/
 * {
     box-sizing: border-box;
@@ -45,6 +49,7 @@ p {
 .wrapper {
     max-width: 1300px;
     display: block;
+    padding: 10px;
     margin: 0 auto;
 }
 .wrapper > div {
@@ -70,7 +75,6 @@ p {
 }
 
 #about {
-    margin-top: 20px;
     padding:50px;
 }
 
@@ -100,7 +104,6 @@ p {
     margin-top: 20px;
 
 }
-
 
 .portfolioItem {
     background: #88c3aa;
@@ -136,23 +139,10 @@ p {
     text-align: left;
 }
 
-/* 
-.portfolioItem img {
-    width: 100%;
-    max-width: 300px;
-}
-.portfolioItem p {
-    width: 100%;
-    display: inline-block;
-}
- */
 .portfolioItem:hover {
     cursor: pointer;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-
-
-
 
 
 /*contant  area*/
@@ -176,9 +166,9 @@ form {
 input, textarea {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    border:2px solid #9ae0a9;
+    border:2px solid #4897c5;
     color: #4d4d4d;
-    font-weight: 600;
+    font-weight: 400;
     padding:10px;
     box-sizing: border-box;
     transition: 0.5s ease-out;
@@ -223,15 +213,26 @@ input:hover {
 .submit-btn:hover {
     background: #48a2c5;
 }
+
+
 /*footer area*/
 .footer {
     width: 100%;
     margin-top: 20px;
-    margin-bottom: 20px;
     padding: 20px;
 }
-.footer p {
-    text-align: right;
+.footer span {
+    float: right;
+}
+.footer i {
+    color: #ddffed;
+    font-size: 25px;
+}
+.footer i:hover {
+    color: #48a2c5;
+}
+.footer i:last-child {
+    margin-left: 5px;
 }
 
 /*media queries*/
