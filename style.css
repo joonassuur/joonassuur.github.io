@@ -67,6 +67,10 @@ p {
     display: flex;
     align-items: center;
 }
+
+#contact .title-cont {
+    text-align: left;
+}
 /*body*/
 .header {
     margin-top: 20px;
