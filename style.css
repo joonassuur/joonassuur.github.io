@@ -37,10 +37,13 @@ p {
 
 .content-cont,
 .title-cont {
-    width: 50%;
     margin: 0 auto;
 }
+.content-cont {
+    width: 60%;
+}
 .title-cont {
+    width: 50%;
     text-align: center;
 }
 
