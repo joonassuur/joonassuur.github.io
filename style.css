@@ -136,7 +136,7 @@ p {
     padding: 10px;
 }
 .text-cont p {
-    margin: 0;
+    margin: 10px 0;
     font-size: 12px;
     text-align: left;
 }
