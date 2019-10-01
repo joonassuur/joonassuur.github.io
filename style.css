@@ -255,6 +255,11 @@ input:hover {
         width: 100%;
         text-align: center;
     }
+
+    #contact .title-cont {
+        margin-bottom: 5px;
+    }
+
     #contact {
         text-align: inherit;
     }
