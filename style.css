@@ -29,6 +29,9 @@ h2 {
     font-weight: 500;
     margin-bottom: 15px;
 }
+ul {
+    text-align: left;
+}
 p {
     margin-top: 5px;
     text-align: justify;
