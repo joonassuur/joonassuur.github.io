@@ -34,6 +34,23 @@ p {
     text-align: justify;
     line-height: 20px;
 }
+.button-container {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+a.button {
+    font-size: 12px;
+    padding: 5px 20px;
+    background: #ab9053;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 5px;
+    letter-spacing: 1px;
+}
+a.button:hover {
+    background: #dabd7a;
+}
 
 .content-cont,
 .title-cont {
@@ -84,24 +101,7 @@ p {
     padding:50px;
 }
 
-.btn-cont {
-    float: right;
-}
-.btn {
-    margin-top: 1px;
-    display: inline-block;
-    padding: 8px;
-    font-size: 15px;
-    border-radius:2px;
-    color: #fff;
-    font-weight: 600;
-    text-decoration: none;
 
-}
-.btn:hover {
-    color: #666699;
-
-}
 
 #portfolio {
     position: relative;
@@ -126,9 +126,9 @@ p {
     text-decoration: none;
     transition: .5s ease-out;
 }
-.portfolioItem:nth-child(even) {
+/* .portfolioItem:nth-child(even) {
     text-align: right;
-}
+} */
 .image-cont,
 .text-cont {
     width: 50%;
@@ -138,21 +138,20 @@ p {
     width: 100%;
 }
 .text-cont {
-    padding: 10px;
+    padding: 0 5px;
 }
 .text-cont p {
-    margin: 10px 0;
+    margin: 5px 0;
     font-size: 12px;
     text-align: left;
 }
 
 .portfolioItem:hover {
-    cursor: pointer;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 
-/*contant  area*/
+/*contact area*/
 
 #contact {
     padding:50px;
@@ -291,6 +290,9 @@ input:hover {
     .image-cont img {
         width: 100%;
         max-width: 300px;
+    }
+    .text-cont {
+        padding: 15px 10px;
     }
     .text-cont p {
         text-align: justify;
