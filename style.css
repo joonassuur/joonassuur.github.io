@@ -253,10 +253,6 @@ input:hover {
         width: 100%;
         text-align: center;
     }
-    a.button {
-        display: block;
-        margin: 5px 0;
-    }
 
     #contact .title-cont {
         margin-bottom: 15px;
@@ -309,5 +305,12 @@ input:hover {
     }
     .submit-btn {
         font-size: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+    a.button {
+        display: block;
+        margin: 5px 0;
     }
 }
