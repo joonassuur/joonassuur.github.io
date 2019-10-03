@@ -177,7 +177,6 @@ input, textarea {
     font-weight: 400;
     padding:10px;
     box-sizing: border-box;
-    transition: 0.5s ease-out;
 }
 
 form input {
