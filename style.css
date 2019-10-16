@@ -37,6 +37,9 @@ p {
     text-align: justify;
     line-height: 20px;
 }
+div#about .content-cont > * {
+    letter-spacing: 1px;
+}
 .button-container {
     margin-top: 10px;
     display: inline-block;
