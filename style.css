@@ -10,7 +10,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     color: #333;
-    background: #ffebbe;
+    background: #f1f1f1;
 }
 h1 {
     color: #333;
@@ -48,14 +48,14 @@ div#about .content-cont > * {
 a.button {
     font-size: 12px;
     padding: 5px 20px;
-    background: #ab9053;
+    background: #656565;
     color: #fff;
     text-decoration: none;
     margin-right: 5px;
     letter-spacing: 1px;
 }
 a.button:hover {
-    background: #dabd7a;
+    background: #a2a2a2;
 }
 
 .content-cont,
