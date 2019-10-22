@@ -208,7 +208,7 @@ input:focus,
 textarea:hover,
 input:hover {
     outline: none;
-    background: #fbf5e7;
+    background: #f3f3f3;
 }
 .submit-btn {
     letter-spacing: 1px;
@@ -216,13 +216,13 @@ input:hover {
     cursor: pointer;
     border: none;
     font-family: 'Montserrat', sans-serif;
-    background: #ab9053;
+    background: #656565;
     color: #fff;
     padding: 10px 50px;
     font-size: 16px;
 }
 .submit-btn:hover {
-    background: #dabd7a;
+    background: #a2a2a2;
     color: #fff;
 }
 
@@ -237,11 +237,11 @@ input:hover {
     float: right;
 }
 .footer i {
-    color: #ab9053;
+    color: #656565;
     font-size: 25px;
 }
 .footer i:hover {
-    color: #dabd7a;
+    color: #a2a2a2;
 }
 .footer i:last-child {
     margin-left: 5px;
