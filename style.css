@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
 
 
 /*general*/
@@ -7,8 +7,8 @@
 }
 body {
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
     color: #333;
     background: #f1f1f1;
 }
@@ -46,7 +46,7 @@ div#about .content-cont > * {
 }
 
 a.button {
-    font-size: 12px;
+    font-size: 14px;
     padding: 5px 20px;
     background: #656565;
     color: #fff;
@@ -148,7 +148,7 @@ a.button:hover {
 }
 .text-cont p {
     margin: 5px 0;
-    font-size: 12px;
+    font-size: 14px;
     text-align: left;
 }
 
@@ -176,7 +176,7 @@ form {
 
 
 input, textarea {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 14px;
     border:1px solid #ababab;
     color: #3b3b3b;
@@ -215,7 +215,7 @@ input:hover {
     margin-top: 20px;
     cursor: pointer;
     border: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
     background: #656565;
     color: #fff;
     padding: 10px 50px;
