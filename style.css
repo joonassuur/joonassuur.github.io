@@ -94,6 +94,11 @@ a.button:hover {
 #contact .title-cont {
     text-align: left;
 }
+
+.disc {
+    font-size: 12px;
+}
+
 /*body*/
 .header {
     margin-top: 20px;
