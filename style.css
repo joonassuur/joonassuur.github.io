@@ -1,329 +1,328 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
-
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
 
 /*general*/
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-    margin: 0;
-    font-family: 'Nunito', sans-serif;
-    font-size: 14px;
-    color: #333;
-    background: #f1f1f1;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  color: #333;
+  background: #f1f1f1;
 }
 h1 {
-    color: #636363;
-    font-size: 2.1em;
-    letter-spacing: 1px;
+  color: #636363;
+  font-size: 2.1em;
+  letter-spacing: 1px;
 }
 h2,
 p {
-    margin: 0;
-    letter-spacing: 0px;
+  margin: 0;
+  letter-spacing: 0px;
 }
 h2 {
-    text-align: left;
-    font-size: 1.5em;
-    color: #333;
-    font-weight: 500;
-    margin-bottom: 15px;
+  text-align: left;
+  font-size: 1.5em;
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 15px;
 }
 ul {
-    text-align: left;
+  text-align: left;
 }
 p {
-    margin-top: 5px;
-    text-align: justify;
-    line-height: 20px;
+  margin-top: 5px;
+  text-align: justify;
+  line-height: 20px;
 }
 div#about .content-cont > * {
-    letter-spacing: 0px;
+  letter-spacing: 0px;
 }
 .button-container {
-    margin-top: 10px;
-    display: inline-block;
+  display: block;
+  margin: 0 auto;
+}
+.button-container a {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
 }
 
 a.button {
-    font-size: 14px;
-    padding: 5px 20px;
-    background: #656565;
-    color: #fff;
-    text-decoration: none;
-    margin-right: 5px;
-    letter-spacing: 0px;
+  font-size: 14px;
+  padding: 5px 20px;
+  background: #656565;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 5px;
+  letter-spacing: 0px;
 }
 a.button:hover {
-    background: #a2a2a2;
+  background: #a2a2a2;
 }
 
 .content-cont,
 .title-cont {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 .content-cont {
-    width: 70%;
+  width: 80%;
 }
 .title-cont {
-    width: 30%;
-    text-align: center;
+  width: 30%;
+  text-align: center;
 }
 
 /*container*/
 .wrapper {
-    max-width: 1000px;
-    display: block;
-    padding: 10px;
-    margin: 0 auto;
+  max-width: 1000px;
+  display: block;
+  padding: 10px;
+  margin: 0 auto;
 }
 .wrapper > div {
-    border-radius: 5px;
-    box-shadow: 0 2px 10px 0px rgba(0,0,0,0.3);
-    background: #fff;
-    opacity: 0;
-    opacity: 1 \0;
-    transition: opacity 1.5s ease;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.3);
+  background: #fff;
+  opacity: 0;
+  opacity: 1 \0;
+  transition: opacity 1.5s ease;
 }
 #about,
 #contact {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 #contact .title-cont {
-    text-align: left;
+  text-align: left;
 }
 
 .disc {
-    font-size: 12px !important;
-    line-height: 16px;
-    display: inline-block;
+  font-size: 12px !important;
+  line-height: 16px;
+  display: inline-block;
 }
 
 /*body*/
 .header {
-    margin-top: 20px;
-    display: inline-block;
-    width: 100%;
-    padding:10px;
-    vertical-align: bottom;
+  margin-top: 20px;
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  vertical-align: bottom;
 }
 
 #about {
-    padding:50px;
+  padding: 50px;
 }
 
-
-
 #portfolio {
-    position: relative;
-    padding:50px;
-    text-align: center;
-    margin-top: 20px;
-
+  position: relative;
+  padding: 50px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .portfolioItem {
-    background: #fff;
-    border:1px solid #ababab;
-    position: relative;
-    display: flex;
-    align-items: center;
-    font-size: 0;
-    width: 100%;
-    max-width: 602px;
-    color: #333;
-    text-align: left;
-    margin: 10px auto;
-    text-decoration: none;
-    transition: .5s ease-out;
+  background: #fff;
+  border: 1px solid #ababab;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  font-size: 0;
+  width: 100%;
+  max-width: 680px;
+  color: #333;
+  text-align: left;
+  margin: 10px auto;
+  text-decoration: none;
+  transition: 0.5s ease-out;
 }
 /* .portfolioItem:nth-child(even) {
     text-align: right;
 } */
 .image-cont,
 .text-cont {
-    width: 50%;
-    display: inline-block;
+  width: 50%;
+  display: inline-block;
 }
 .image-cont img {
-    width: 100%;
+  width: 100%;
 }
 .text-cont {
-    padding: 0 5px;
+  padding: 0 5px;
 }
 .text-cont p {
-    margin: 5px 0;
-    font-size: 14px;
-    text-align: left;
+  margin: 5px 0;
+  text-align: justify;
+  font-size: 13px;
 }
 
 .portfolioItem:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 
 /*contact area*/
 
 #contact {
-    padding:50px;
-    width: 100%;
-    margin-top: 20px;
+  padding: 50px;
+  width: 100%;
+  margin-top: 20px;
 }
 
 .form-heading-cont {
-    width: 50%;
+  width: 50%;
 }
-
 
 form {
-    font-size: 0;
+  font-size: 0;
 }
 
-
-input, textarea {
-    font-family: 'Nunito', sans-serif;
-    font-size: 14px;
-    border:1px solid #ababab;
-    color: #3b3b3b;
-    font-weight: 400;
-    padding:10px;
-    box-sizing: border-box;
+input,
+textarea {
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  border: 1px solid #ababab;
+  color: #3b3b3b;
+  font-weight: 400;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 form input {
-    max-width: 204px;
-    width: 49%;
-    box-sizing: border-box;
-    margin: 0;
+  max-width: 204px;
+  width: 49%;
+  box-sizing: border-box;
+  margin: 0;
 }
 form input:first-child {
-    margin-right:2%;
+  margin-right: 2%;
 }
 
-
 form textarea {
-    max-width: 416px;
-    height: 150px;
-    width: 100%;
-    margin-top: 10px;
-    display: block;
+  max-width: 416px;
+  height: 150px;
+  width: 100%;
+  margin-top: 10px;
+  display: block;
 }
 textarea:focus,
 input:focus,
 textarea:hover,
 input:hover {
-    outline: none;
-    background: #f3f3f3;
+  outline: none;
+  background: #f3f3f3;
 }
 .submit-btn {
-    letter-spacing: 0px;
-    margin-top: 20px;
-    cursor: pointer;
-    border: none;
-    font-family: 'Nunito', sans-serif;
-    background: #656565;
-    color: #fff;
-    padding: 10px 50px;
-    font-size: 16px;
+  letter-spacing: 0px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  font-family: "Nunito", sans-serif;
+  background: #656565;
+  color: #fff;
+  padding: 10px 50px;
+  font-size: 16px;
 }
 .submit-btn:hover {
-    background: #a2a2a2;
-    color: #fff;
+  background: #a2a2a2;
+  color: #fff;
 }
-
 
 /*footer area*/
 .footer {
-    width: 100%;
-    margin-top: 20px;
-    padding: 20px;
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px;
 }
 .footer span {
-    float: right;
+  float: right;
 }
 .footer i {
-    color: #656565;
-    font-size: 25px;
+  color: #656565;
+  font-size: 25px;
 }
 .footer i:hover {
-    color: #a2a2a2;
+  color: #a2a2a2;
 }
 .footer i:last-child {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
 /*media queries*/
-@media (max-width: 1024px) {
-    body {
-        font-size: 12px;
-    }
-    .title-cont,
-    .content-cont,
-    #about, #contact {
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
+@media (max-width: 950px) {
+  body {
+    font-size: 13px;
+  }
+  .title-cont,
+  .content-cont,
+  #about,
+  #contact {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
 
-    #contact .title-cont {
-        margin-bottom: 15px;
-    }
+  #contact .title-cont {
+    margin-bottom: 15px;
+  }
 
-    #contact {
-        text-align: inherit;
-    }
-    #about {
-        margin-top: 0;
-    }
-    .footer {
-        margin-bottom: 0;
-    }
-    .form-heading-cont {
-        width: 100%;
-    }
-    p {
-        text-align: justify;
-    }
+  #contact {
+    text-align: inherit;
+  }
+  #about {
+    margin-top: 0;
+  }
+  .footer {
+    margin-bottom: 0;
+  }
+  .form-heading-cont {
+    width: 100%;
+  }
+  p {
+    text-align: justify;
+  }
 
-    .portfolioItem {
-        display: block;
-        max-width: 300px;
-        margin: 30px auto;
-    }
-    .image-cont, .text-cont {
-        width: 100%;
-        display: block;
-    }
-    .image-cont {
-        text-align: center;
-    }
-    .image-cont img {
-        width: 100%;
-        max-width: 300px;
-    }
-    .text-cont {
-        padding: 15px 10px;
-    }
-    .text-cont p {
-        text-align: justify;
-    }
+  .portfolioItem {
+    display: block;
+    max-width: 300px;
+    margin: 30px auto;
+  }
+  .image-cont,
+  .text-cont {
+    width: 100%;
+    display: block;
+  }
+  .image-cont {
+    text-align: center;
+  }
+  .image-cont img {
+    width: 100%;
+    max-width: 300px;
+  }
+  .text-cont {
+    padding: 15px 10px;
+  }
+  .text-cont p {
+    text-align: justify;
+  }
 
-
-    form textarea,
-    form input {
-        font-size: 12px;
-        max-width: inherit;
-    }
-    .submit-btn {
-        font-size: 14px;
-    }
+  form textarea,
+  form input {
+    font-size: 12px;
+    max-width: inherit;
+  }
+  .submit-btn {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 400px) {
-    a.button {
-        display: block;
-        margin: 5px 0;
-    }
+  a.button {
+    display: block;
+    margin: 5px 0;
+  }
 }
