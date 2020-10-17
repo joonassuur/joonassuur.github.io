@@ -141,16 +141,18 @@ a.button:hover {
   text-decoration: none;
   transition: 0.5s ease-out;
 }
-/* .portfolioItem:nth-child(even) {
-    text-align: right;
-} */
 .image-cont,
 .text-cont {
   width: 50%;
   display: inline-block;
 }
+a.image-cont  {
+  text-align: right;
+
+}
 .image-cont img {
   width: 100%;
+  max-width: 300px;
 }
 .text-cont {
   padding: 0 5px;
@@ -289,7 +291,7 @@ input:hover {
   .portfolioItem {
     display: block;
     max-width: 300px;
-    margin: 30px auto;
+    margin: 10px auto;
   }
   .image-cont,
   .text-cont {
@@ -299,10 +301,7 @@ input:hover {
   .image-cont {
     text-align: center;
   }
-  .image-cont img {
-    width: 100%;
-    max-width: 300px;
-  }
+
   .text-cont {
     padding: 15px 10px;
   }
