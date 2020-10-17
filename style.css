@@ -267,6 +267,9 @@ input:hover {
     width: 100%;
     text-align: center;
   }
+  .image-cont img {
+    padding: 10px;
+  }
 
   #contact .title-cont {
     margin-bottom: 15px;
