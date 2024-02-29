@@ -30,6 +30,9 @@ export const HoverEffect = ({
           key={item?.link}
           className="relative group  block p-2 h-full w-full"
           onMouseEnter={() => setHoveredIndex(idx)}
+          style={{
+            cursor: item?.link === '#portfolio-section' ? 'unset' : 'pointer',
+          }}
           onMouseLeave={() => setHoveredIndex(null)}
         >
           <AnimatePresence>
